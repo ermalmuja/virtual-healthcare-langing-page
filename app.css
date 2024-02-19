@@ -1,0 +1,390 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+#navbar{
+    max-width: 1187px;
+    margin: auto;
+    align-items: center;
+    margin-top: 56px;
+}
+#navbar img{
+height: 41px;
+width: 160px;
+}
+#navbar ul{
+    float: right;
+}
+#navbar ul li {
+    display: inline-block;
+    margin: 0 23px;
+}
+#navbar ul li a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #1F1534;
+    opacity: 50%;
+}
+#navbar ul .current{
+    font-size: 18px;
+    font-weight: 700;
+    opacity: 100%;
+    color: #1F1534;
+}
+
+
+/* Main box 1 */
+.main {
+    max-width: 1187px;
+    margin: auto;
+    align-items: center;
+    width: 1187px;
+    width: 100%;
+}
+
+.box-1 {
+    display: flex;
+    margin-top: 80px;
+    
+}
+.box-1 .box-1-text {
+    margin-top: 166px;
+    margin-right: 80px;
+}
+.box-1-text h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.box-1-text p{
+    font-size: 21px;
+    color: 
+    #7D7987;
+}
+
+.box-1 img{
+    height:598px;
+    width: 693px;
+}
+.our-service h2{
+    margin-top:192px ;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+.our-service .rectangle{
+    margin: auto;
+   margin-top: 26px;
+}
+.our-service p{
+    margin-top: 33px;
+    font-size: 18px;
+    text-align: center;
+    color: #7D7987;
+    margin-bottom: 80px;
+}
+
+/* Boxes Box-2 */
+.box-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 34px;
+    width: 1187px;
+    margin: auto;
+    background-image: url(img/bg\ element.svg);
+    
+}
+
+.box-2 .box-2-1 {
+background-color: white;
+height: 354px;
+width: 350px;
+border-radius: 20px;
+padding:50px 40px;
+box-shadow: 10px 40px 50px 0px #E5E9F666;
+
+}
+.box-2 .box-2-1 h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 16px 0;
+}
+.box-2 .box-2-1 p{
+    font-size: 16px;
+    color:#7D7987 ;
+}
+.box-2 button{
+    text-align: center;
+    margin-top: 72px;
+    margin-left: 125%;
+}
+
+
+
+
+
+/* Utilities */
+
+.button {
+    
+    
+    text-decoration: none;
+    width: 200px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 55px;
+}
+.button-1{
+    color: white;
+    margin-top: 48px;
+    background: #458FF6;
+    border: none;
+}
+.button-2{
+    color: #458FF6;
+    border-width: 1.4px;
+    border-color: #458FF6;
+    background-color: white;
+}
+.button-2 a{
+    color: #458FF6;
+}
+.rectangle{
+    background-color: black;
+    height: 2px;
+    width: 56px;
+}
+
+/* box utilitiy */
+
+
+.box-3{
+    display: flex;
+    margin-top: 220px;
+}
+.box-3-text{
+    margin-left: 142px;
+    margin-top: 57px;
+    
+}
+.box-text p{
+    font-size: 21px;
+    color: #7D7987;
+    line-height: 30px;
+}
+.box-text h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    line-height: 56px;
+}
+.box-text button{
+    margin-top: 36px;
+}
+.box-text .rectangle{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.box-3-img{
+    width: 650px;
+    height: 477px;
+}
+
+/* box-4 */
+
+.box-4{
+    display: flex;
+    margin-top: 220px;
+}
+.box-4-text{
+    margin-right: 71px;
+    margin-top: 57px;}
+    .box-4 h2{
+       margin-right:150px ;
+       line-height: 48px;
+    }
+.box-4-img{
+    width: 665px;
+    height: 434px;
+}
+
+/* Costumer saying */
+
+.costumer{
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+border-radius: 24px;
+width: 1120px;
+height: 425px;
+margin: auto;
+margin-top: 266px;
+}
+.costumer .cost-title{
+    margin:20px;
+}
+
+.title h2{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 25px;
+    padding-top: 64px;
+}
+.cost-title h2{
+    color: white;
+}
+.cost-rec{
+    margin: auto;
+    background-color: white;
+}
+.costumer-id{
+    display: flex;
+    margin: auto;
+    margin:66px 118px 80px;
+    color: white;
+}
+.id-only{
+    display: flex;
+    margin-right: 110px;
+}
+.costumer-id img{
+    border: 5px solid #fff;
+    border-radius: 50%;
+    margin-right: 28px;
+    
+}
+.costumer-id h4{
+    font-size: 22px;
+    margin-top: 30px;
+}
+.costumer-id h5{
+    font-size: 18px;
+    font-weight: 400;
+}
+.costumer-text p{
+    width: 420px;
+    height: 120px;
+    font-size: 19px;
+    line-height: 30px;
+}
+.swipe-costumer{
+    margin: auto;
+    display: flex;
+    margin: 50px 300px;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.swipe-costumer .elipse{
+    margin:0px 9px;
+}
+
+/* Articles */
+
+.article{
+    width: 1187px;
+    margin: auto;
+}
+.article .rec-art{
+margin: auto;
+}
+
+.article-more{
+    display: flex;
+    margin: auto;
+    margin-top: 72px;
+}
+.article-box{
+    margin: 18px;
+    width: 350px;
+    height: 512px;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4); 
+}
+.article-box img{
+    border-radius:20px 20px 0 0 ;
+}
+.article-box h4{
+    font-size: 21px;
+    font-weight: 700;
+    margin: 21px 66px 12px 33px;
+    line-height: 32px;
+}
+.article-box p{
+    color: #7D7987;
+    margin: 0px 51px 25px 33px;
+    font-size: 16px;
+    line-height: 28px;
+}
+.article-box a{
+    margin-left: 33px;
+    color: #4089ED;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.button2{
+    margin-top: 72px ;
+    margin-left: 40%;
+    margin-bottom: 200px;
+}
+/* Footer */
+
+footer{
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    height: 432px;
+    width: 100%;
+}
+footer a{
+    color: white;
+}
+footer .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-gap: 100px;
+    width: 1187px;
+    margin: auto;
+}
+footer .box-list{
+    margin-top: 50%;
+ }
+ footer .footer-1 {
+    margin-top: 25%;
+ }
+ 
+footer .footer-1 .trafalgar{
+margin-left: 12px;
+}
+
+footer h2,footer h3{
+margin:20px 0;
+}
+footer ul li {
+    margin: 10px 0;
+}
+
+footer .container .t-logo{
+    float: left;
+    color: #5B9BF3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    width: 41px;
+    height: 41px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    opacity: 100%;
+}
+.rights-reserved {
+    margin-top: 31px;
+}
